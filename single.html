@@ -77,7 +77,7 @@
                 console.log(data);
 
                 if (x) {
-                    principal.innerHTML += `<h2 class="mt-4">${data[x].nombre}</h2><p>${data[x].fecha}</p><p>${data[x].descripcion}</p><img src="${data[x].fotos}">`;
+                    principal.innerHTML += `<h2 class="mt-4">${data[x].nombre}</h2><p>${data[x].fecha}</p><p>${data[x].descripcion}</p><img src="${data[x].fotos}" class="w-100">`;
                 } else {
                     window.location.href = "index.html";
                 }
